@@ -1,5 +1,4 @@
 .DS_store
-.config.json
 .dist
 .jshintignore
 .npm
@@ -11,6 +10,7 @@
 *.bak
 *_cred*
 node_modules
+!packages/node_modules
 .vscode
 .nyc_output
 sync.ffs_db
